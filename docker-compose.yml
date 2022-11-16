@@ -31,7 +31,7 @@ services:
     environment:
       TZ: "Europe/Moscow"
       WEBPASSWORD: "CHANGE_ME93a3027594175ca45f1043092936d32f652fafcb" # Can be whatever you want.
-      ServerIP: 10.1.0.100 # Internal IP of pihole
+      ServerIP: 10.2.0.100 # Internal IP of pihole
       DNS1: 10.2.0.200 # Unbound IP
       DNS2: 10.2.0.200 # If we don't specify two, it will auto pick google.
     # Volumes store your data between container upgrades
